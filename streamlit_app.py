@@ -365,7 +365,7 @@ if run:
                 1.0
             )
         )
-            cap.release()
+    cap.release()
     writer.release()
 
     progress.progress(1.0)
