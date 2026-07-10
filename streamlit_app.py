@@ -364,9 +364,10 @@ if run:
                 processed / max_frames,
                 1.0
             )
-        )
-    cap.release()
-    writer.release()
+               )
+
+        cap.release()
+        writer.release()
 
     progress.progress(1.0)
 
